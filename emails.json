@@ -1,14 +1,8 @@
 [
   {
-    "remitente": "GitHub <noreply@github.com>",
-    "asunto": "[External] [GitHub] A personal access token (classic) has been added to your account",
-    "fecha": "2025-03-06T22:26:16.000Z",
-    "cuerpo": "Hey giovannytorres518!\r\n\r\nA personal access token (classic) \"chatbot dev\" with admin:enterprise, admin:gpg_key, admin:org, admin:org_hook, admin:public_key, admin:repo_hook, admin:ssh_signing_key, audit_log, codespace, copilot, delete:packages, delete_repo, gist, notifications, project, repo, user, workflow, write:discussion, write:network_configurations, and write:packages scopes was recently added to your account. Visit https://github.com/settings/tokens for more information.\r\n\r\nTo see this and other security events for your account, visit https://github.com/settings/security-log\r\n\r\nIf you run into problems, please contact support by visiting https://github.com/contact\r\n\r\nThanks,\r\nThe GitHub Team\r\n\r\n"
-  },
-  {
-    "remitente": "GitHub <noreply@github.com>",
-    "asunto": "[External] [GitHub] Your password was reset",
-    "fecha": "2025-03-06T22:24:47.000Z",
-    "cuerpo": "Hello giovannytorres518,\r\n\r\nWe wanted to let you know that your GitHub password was reset.\r\n\r\nIf you did not perform this action, you can recover access by entering giovanny.torres@bbva.com into the form at https://github.com/password_reset\r\n\r\nTo secure your account, follow the steps outlined by https://docs.github.com/articles/preventing-unauthorized-access\r\n\r\nTo see this and other security events for your account, visit https://github.com/settings/security-log\r\n\r\nIf you run into problems, please contact support by visiting https://github.com/contact\r\n\r\nPlease do not reply to this email with your password. We will never ask for your password, and we strongly discourage you from sharing it with anyone.\r\n"
+    "remitente": "GIOVANNY TORRES GONZALEZ <giovanny.torres@bbva.com>",
+    "asunto": "TEST",
+    "fecha": "2025-03-06T23:06:01.000Z",
+    "cuerpo": "este e sun test\r\n"
   }
 ]
