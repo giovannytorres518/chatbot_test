@@ -1,14 +1,14 @@
 [
   {
-    "remitente": "GIOVANNY TORRES GONZALEZ <giovanny.torres@bbva.com>",
-    "asunto": "Test2",
-    "fecha": "2025-03-06T23:46:47.000Z",
-    "cuerpo": "Esta es la segunda prueba\r\n"
+    "remitente": "giovanny.torres@bbva.com",
+    "asunto": "Test1",
+    "fecha": "2025-03-07T00:02:41.000Z",
+    "cuerpo": "test de respuesta 1"
   },
   {
-    "remitente": "GIOVANNY TORRES GONZALEZ <giovanny.torres@bbva.com>",
-    "asunto": "Test1",
-    "fecha": "2025-03-06T23:46:33.000Z",
-    "cuerpo": "Esto es la primera prueba\r\n"
+    "remitente": "giovanny.torres@bbva.com",
+    "asunto": "Test2",
+    "fecha": "2025-03-07T00:02:41.000Z",
+    "cuerpo": "test de respuesta 2"
   }
 ]
