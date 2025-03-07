@@ -1,0 +1,1 @@
+# Implementación o carga del modelo de IA

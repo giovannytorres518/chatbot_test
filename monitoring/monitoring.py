@@ -1,0 +1,1 @@
+# Lógica para monitoreo y métricas
