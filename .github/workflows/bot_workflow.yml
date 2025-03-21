@@ -30,4 +30,4 @@ jobs:
 
       - name: Ejecutar script del bot
         run: |
-          python bot.py
+          python bot/bot.py
