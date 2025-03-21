@@ -38,18 +38,14 @@ jobs:
       - name: Ejecutar script del bot
         run: |
           python bot/bot.py
-
+      
       - name: Commit y push de los cambios
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          # Configurar credenciales de Git para el bot
-          git config user.name 'github-actions[bot]'
-          git config user.email 'github-actions[bot]@users.noreply.github.com'
-          
-          # Agregar cualquier archivo modificado al índice de Git
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
           git add .
-          
-          # Verificar si hay cambios. Si los hay, se crea un commit; si no, se omite.
           git diff --quiet && git diff --staged --quiet || git commit -m "Bot updates JSON files [skip ci]"
-          
-          # Se hace push a la rama 'main'
-          git push origin main
+          git push https://${GITHUB_TOKEN}@github.com/${{ github.repository }} HEAD:main
+
