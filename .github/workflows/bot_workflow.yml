@@ -1,15 +1,22 @@
 name: Bot CI/CD
 
 on:
+  # Se ejecuta cuando hay un push a la rama 'main'
   push:
     branches:
       - main
+
+  # Se ejecuta en pull requests dirigidos a la rama 'main'
   pull_request:
     branches:
       - main
+
+  # Se ejecuta diariamente a las 16:00 UTC
   schedule:
-    # Se ejecutará a las 16:00 (4 PM) UTC de cada día
     - cron: '0 16 * * *'
+
+  # Permite ejecución manual desde la interfaz de GitHub Actions
+  workflow_dispatch:
 
 jobs:
   build:
@@ -30,4 +37,19 @@ jobs:
 
       - name: Ejecutar script del bot
         run: |
-          python bot/bot.py
+          python bot.py
+
+      - name: Commit y push de los cambios
+        run: |
+          # Configurar credenciales de Git para el bot
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          
+          # Agregar cualquier archivo modificado al índice de Git
+          git add .
+          
+          # Verificar si hay cambios. Si los hay, se crea un commit; si no, se omite.
+          git diff --quiet && git diff --staged --quiet || git commit -m "Bot updates JSON files [skip ci]"
+          
+          # Se hace push a la rama 'main'
+          git push origin main
