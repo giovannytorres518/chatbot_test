@@ -4,7 +4,7 @@
         "asunto": "Test2 - Esto es una prueba de como podemos estructurar la info de respuesta al usuario",
         "fecha": "2025-03-06T22:26:16.000Z",
         "cuerpo": "Suspendisse potenti. Nam non lacus euismod, imperdiet neque at, tincidunt turpis. Cras fermentum, sapien vitae ultrices efficitur, purus nulla sodales augue, non dignissim tortor urna at neque. Vivamus eget elit ac metus vehicula tincidunt. Praesent fringilla magna a justo accumsan, nec scelerisque nisi consequat. Integer porttitor, justo ut ultricies fermentum, felis nulla bibendum purus, id dictum nibh arcu id sapien.",
-        "fecha_output": "2025-12-16T16:37:22.602388Z",
+        "fecha_output": "2025-12-17T16:36:22.762655Z",
         "asunto_output": "Test2 - Esto es una prueba de como podemos estructurar la info de respuesta al usuario (respuesta)",
         "cuerpo_output": "Suspendisse potenti. Nam non lacus euismod, imperdiet neque at, tincidunt turpis. Cras fermentum, sapien vitae ultrices efficitur, purus nulla sodales augue, non dignissim tortor urna at neque. Vivamus eget elit ac metus vehicula tincidunt. Praesent fringilla magna a justo accumsan, nec scelerisque nisi consequat. Integer porttitor, justo ut ultricies fermentum, felis nulla bibendum purus, id dictum nibh arcu id sapien. test"
     }
